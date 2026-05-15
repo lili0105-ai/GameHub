@@ -9,7 +9,7 @@ COPY ["GameHub.Solution.slnx", "./"]
 COPY ["GameHub.Api/GameHub.Api.csproj", "GameHub.Api/"]
 COPY ["GameHub.Application/GameHub.Application.csproj", "GameHub.Application/"]
 COPY ["GameHub.Domain/GameHub.Domain.csproj", "GameHub.Domain/"]
-COPY ["GameHub.Infrastructure/GameHub.Infrastructure.csproj", "GameHub.Infrastructure/"]
+COPY ["GameHub.Infrasctruture/GameHub.Infrastructure.csproj", "GameHub.Infrasctruture/"]
 
 # Restaurar dependencias
 RUN dotnet restore "GameHub.Solution.slnx"
